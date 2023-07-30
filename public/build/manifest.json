@@ -1,0 +1,31 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-9b425362.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-a5f499b0.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/ab-d39acb7c.jpg",
+      "assets/stols2-a2fffe50.jpg"
+    ],
+    "css": [
+      "assets/app-a5f499b0.css"
+    ],
+    "file": "assets/app-1e11e35e.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "ttt/img/ab.jpg": {
+    "file": "assets/ab-d39acb7c.jpg",
+    "src": "ttt/img/ab.jpg"
+  },
+  "ttt/img/stols2.jpg": {
+    "file": "assets/stols2-a2fffe50.jpg",
+    "src": "ttt/img/stols2.jpg"
+  }
+}
