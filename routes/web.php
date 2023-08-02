@@ -21,7 +21,8 @@ $docRoutes = function () {
 
 Route::domain('doc.local')->group($docRoutes);
 Route::domain('doc2.local')->group($docRoutes);
-Route::domain('складдокументов.рф')->group($docRoutes);
+// Route::domain('складдокументов.рф')->group($docRoutes);
+// складдокументов.рф
 Route::domain('xn--80aefaf0adenlhe2ayl.xn--p1ai')->group($docRoutes);
 
 $tttRoutes = function () {
@@ -33,3 +34,5 @@ $tttRoutes = function () {
 Route::domain('ttt.local')->group($tttRoutes);
 Route::domain('ttt72.ru')->group($tttRoutes);
 Route::domain('ттт72.рф')->group($tttRoutes);
+// ттт72.рф
+Route::domain('xn--72-qmcaa.xn--p1ai')->group($tttRoutes);
