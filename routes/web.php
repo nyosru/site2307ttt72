@@ -22,6 +22,7 @@ $docRoutes = function () {
 Route::domain('doc.local')->group($docRoutes);
 Route::domain('doc2.local')->group($docRoutes);
 Route::domain('складдокументов.рф')->group($docRoutes);
+Route::domain('xn--80aefaf0adenlhe2ayl.xn--p1ai')->group($docRoutes);
 
 $tttRoutes = function () {
     Route::get('/', function () {
