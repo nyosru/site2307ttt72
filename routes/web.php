@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('ttt.welcome');
-});
+$docRoutes = function () {
+    Route::get('/', function () {
+        return view('doc.index');
+    });
+};
+
+Route::domain('doc.local')->group($docRoutes);
+Route::domain('doc2.local')->group($docRoutes);
+Route::domain('складдокументов.рф')->group($docRoutes);
+
+$tttRoutes = function () {
+    Route::get('/', function () {
+        return view('ttt.welcome');
+    });
+};
+
+Route::domain('ttt.local')->group($tttRoutes);
+Route::domain('ttt72.ru')->group($tttRoutes);
+Route::domain('ттт72.рф')->group($tttRoutes);
