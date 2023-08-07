@@ -19,9 +19,10 @@ use Illuminate\Support\Facades\Route;
 if (1 == 1) {
     $r = function () {
         Route::get('/', function () {
-            return view('atraktor.index');
+            return view('index_empty',['domain' => $_SERVER['HTTP_HOST']]);
         });
     };
+    //АТРАКТОР.РФ
     Route::domain('xn--80aa4aqhdjd.xn--p1ai')->group($r);
 }
 
