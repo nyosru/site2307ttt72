@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+# XN--80AA4AQHDJD.XN--P1AI
+# ( IDN = АТРАКТОР.РФ )
+if (1 == 1) {
+    $r = function () {
+        Route::get('/', function () {
+            return view('atraktor.index');
+        });
+    };
+    Route::domain('xn--80aa4aqhdjd.xn--p1ai')->group($r);
+}
+
 $docRoutes = function () {
     Route::get('/', function () {
         return view('doc.index');
@@ -31,7 +43,7 @@ $tttRoutes = function () {
     });
 };
 
-Route::domain('ttt.local')->group($tttRoutes);
+Route::domain('ttt72.local')->group($tttRoutes);
 Route::domain('ttt72.ru')->group($tttRoutes);
 Route::domain('ттт72.рф')->group($tttRoutes);
 // ттт72.рф
